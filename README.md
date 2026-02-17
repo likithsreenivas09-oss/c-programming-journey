@@ -105,4 +105,22 @@ gcc patterns/symmetric\_star\_pattern.c -o pattern
 ./pattern
 
 
+## Day 3 – Arrays in C
+
+### Program: Sum and Average of N Elements
+
+- Took input of N numbers using array
+- Used loop to read elements
+- Calculated total sum
+- Calculated average
+- Practiced array declaration with dynamic size
+
+Concepts Used:
+- Arrays
+- for loop
+- scanf and printf
+- Basic arithmetic operations
+
+
+
 
