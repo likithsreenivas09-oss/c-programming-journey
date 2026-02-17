@@ -104,6 +104,8 @@ gcc patterns/symmetric\_star\_pattern.c -o pattern
 
 ./pattern
 
+```
+---
 
 ## Day 3 – Arrays in C
 
