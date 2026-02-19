@@ -11,6 +11,7 @@ This repository contains my structured practice and learning of C programming fu
 - Nested Loops
 - Arrays
 - Linear Search
+- 3D Arrays
 - Logical Problem Solving
 
 ---
@@ -86,6 +87,26 @@ arrays/searchelement.c
 
 ---
 
+## Day 5 – 3D Array Student Result Management
+
+### Program: Student Marks Using 3D Array
+
+- Stored marks using a 3D array (students × subjects × semesters)
+- Calculated total marks for each student
+- Calculated average marks
+- Identified top scoring student
+
+**Concepts Used:**
+- 3D Arrays
+- Nested loops
+- Aggregation logic
+- Conditional comparison
+
+**Location:**  
+arrays/student_result_3d_array.c
+
+---
+
 ## How to Compile and Run
 
 Make sure GCC is installed.
@@ -93,14 +114,14 @@ Make sure GCC is installed.
 ### On Linux / WSL:
 
 ```bash
-gcc patterns/symmetric_star_pattern.c -o pattern
-./pattern
+gcc arrays/student_result_3d_array.c -o program
+./program
 ```
 
 ### On Windows (MinGW):
 
 ```bash
-gcc arrays/sumANDAverage.c -o program
+gcc arrays/student_result_3d_array.c -o program
 program
 ```
 
