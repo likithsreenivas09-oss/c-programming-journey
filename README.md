@@ -25,7 +25,7 @@ This repository contains my structured practice and learning of C programming fu
 33  
 4  
 
-**Location:**  
+Location:  
 patterns/inverted_repeating_number_pattern.c
 
 ---
@@ -42,7 +42,7 @@ patterns/inverted_repeating_number_pattern.c
 **  
 *  
 
-**Location:**  
+Location:  
 patterns/symmetric_star_pattern.c
 
 ---
@@ -56,13 +56,13 @@ patterns/symmetric_star_pattern.c
 - Calculated total sum
 - Calculated average
 
-**Concepts Used:**
+Concepts Used:
 - Arrays
 - for loop
 - scanf and printf
 - Arithmetic operations
 
-**Location:**  
+Location:  
 arrays/sumANDAverage.c
 
 ---
@@ -76,13 +76,13 @@ arrays/sumANDAverage.c
 - Displayed position if found
 - Displayed "Not Found" otherwise
 
-**Concepts Used:**
+Concepts Used:
 - Arrays
 - for loop
 - Conditional statements
 - Linear search logic
 
-**Location:**  
+Location:  
 arrays/searchelement.c
 
 ---
@@ -96,14 +96,35 @@ arrays/searchelement.c
 - Calculated average marks
 - Identified top scoring student
 
-**Concepts Used:**
+Concepts Used:
 - 3D Arrays
 - Nested loops
 - Aggregation logic
 - Conditional comparison
 
-**Location:**  
+Location:  
 arrays/student_result_3d_array.c
+
+---
+
+## Day 6 – Maximum Element in 3D Array
+
+### Program: Find Maximum Element and Its Position
+
+- Accepted input for a 3D array (layers × rows × columns)
+- Stored values using nested loops
+- Traversed entire 3D array
+- Found maximum element
+- Displayed its layer, row, and column position
+
+Concepts Used:
+- 3D Arrays
+- Triple nested loops
+- Comparison logic
+- Index tracking
+
+Location:  
+arrays/max_3d_array.c
 
 ---
 
@@ -114,20 +135,14 @@ Make sure GCC is installed.
 ### On Linux / WSL:
 
 ```bash
-gcc arrays/student_result_3d_array.c -o program
+gcc arrays/max_3d_array.c -o program
 ./program
-```
-
-### On Windows (MinGW):
-
-```bash
-gcc arrays/student_result_3d_array.c -o program
-program
 ```
 
 ---
 
 This repository will continue to grow as I progress into:
+
 - More C programs
 - Data structures
 - Mini projects
