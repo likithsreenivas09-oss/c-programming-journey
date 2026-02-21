@@ -20,10 +20,12 @@ This repository contains my structured practice and learning of C programming fu
 
 ### Example (n = 4)
 
-1111  
-222  
-33  
-4  
+```
+1111
+222
+33
+4
+```
 
 Location:  
 patterns/inverted_repeating_number_pattern.c
@@ -34,13 +36,15 @@ patterns/inverted_repeating_number_pattern.c
 
 ### Example (n = 4)
 
-*  
-**  
-***  
-****  
-***  
-**  
-*  
+```
+*
+**
+***
+****
+***
+**
+*
+```
 
 Location:  
 patterns/symmetric_star_pattern.c
@@ -128,13 +132,45 @@ arrays/max_3d_array.c
 
 ---
 
+## Day 7 – Search Element in 3D Array
+
+### Program: Linear Search in 3D Array
+
+- Accepted size of 3D array from user
+- Validated dimensions
+- Stored elements using nested loops
+- Searched for first occurrence of a value
+- Displayed layer, row and column position
+
+Concepts Used:
+- 3D Arrays
+- Triple nested loops
+- Search logic
+- Validation check
+
+Location:  
+arrays/3d_array_search.c
+
+---
+
 ## How to Compile and Run
 
 Make sure GCC is installed.
 
-### On Linux / WSL:
+### Compile Any File
 
-```bash
+```
+gcc path/to/filename.c -o program
+./program        (Linux / WSL)
+
+OR
+
+program          (Windows MinGW)
+```
+
+Example:
+
+```
 gcc arrays/max_3d_array.c -o program
 ./program
 ```
